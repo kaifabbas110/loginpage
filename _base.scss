@@ -1,0 +1,44 @@
+*,
+::after,
+::before{
+    box-sizing: inherit;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    @media only screen and (max-width: 69em){
+        font-size: 55%;
+    }
+    @media only screen and (max-width: 59.25em){
+        font-size: 50%;
+    }
+    @media only screen and (max-width: 53.4375em){
+        font-size: 45%;
+    }
+    @media only screen and (max-width: 43.125em){
+            font-size: 40%;
+    }
+    @media only screen and (max-width: 35em){
+        font-size: 35%;
+        
+    }
+    @media only screen and (max-width: 31.25em){
+        font-size: 50%;
+    }
+    @media only screen and (max-width: 19.375em){
+        font-size: 45%;
+        }
+
+}
+
+body{
+    box-sizing: border-box;
+    padding: 10rem;
+    background-color: #eef5ff;
+    @media only screen and (max-width: 31.25em){
+        padding: 0;
+        }
+}
